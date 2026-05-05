@@ -2,51 +2,45 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechPulse | المقالات</title>
 
-<title>Tech Uncovered</title>
-<link rel="stylesheet" href="style.css">
+<!-- نفس ستايل الموقع -->
+<style>
+body{background:#06060e;color:#eee;font-family:Cairo;margin:0}
+.container{max-width:1200px;margin:auto;padding:2rem}
+
+/* نفس كاردات الموقع */
+.card{
+  background:#111120;border:1px solid #1e1e36;
+  padding:1.5rem;border-radius:15px;margin-bottom:1rem;
+  text-decoration:none;color:white;display:block;
+  transition:.3s;
+}
+.card:hover{border-color:#00e5ff;transform:translateY(-3px)}
+h1{color:#00e5ff}
+</style>
 </head>
 
 <body>
 
-<header class="header">
-  <h1>Tech Uncovered</h1>
-  <nav>
-    <a href="index.html">الرئيسية</a>
-    <a href="about.html">من نحن</a>
-    <a href="contact.html">اتصل بنا</a>
-    <a href="privacy.html">الخصوصية</a>
-  </nav>
-</header>
+<div class="container">
 
-<section class="hero">
-  <h2>موقع التكنولوجيا والذكاء الاصطناعي</h2>
-  <p>مقالات احترافية + تحليل + معرفة</p>
-</section>
+<h1>📰 جميع المقالات</h1>
 
-<section class="grid">
+<a class="card" href="article1.html">
+  🤖 كيف يعمل ChatGPT من الداخل؟
+</a>
 
-  <div class="card">
-    <h3>مستقبل الذكاء الاصطناعي</h3>
-    <a href="articles/ai-future.html">اقرأ المقال</a>
-  </div>
+<a class="card" href="article2.html">
+  ⚡ Next.js vs Nuxt
+</a>
 
-  <div class="card">
-    <h3>الربح من الإنترنت</h3>
-    <a href="articles/money.html">اقرأ المقال</a>
-  </div>
+<a class="card" href="article3.html">
+  🔐 حماية المواقع من الاختراق
+</a>
 
-  <div class="card">
-    <h3>أفضل أدوات AI</h3>
-    <a href="articles/ai-tools.html">اقرأ المقال</a>
-  </div>
-
-</section>
-
-<footer>
-  © 2026 Tech Uncovered
-</footer>
+</div>
 
 </body>
 </html>
